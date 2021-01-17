@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+header {
+    position: absolute;
+    background-color: #000;
+    top: 0;
+    width: 100%;
+    height: 50px;
+}
+
+footer {
+    position: absolute;
+    background-color: #000;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+#gallery-container {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100% - 100px);
+    width: 100vw;
+    background-color: wheat;
+    overflow: auto;
+}
+
+.book-container {
+    padding: 10px;
+    margin: 20px;
+    background: darkseagreen;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-align: center;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.toolbar {
+    display: block;
+    height: 50px;
+    background: aliceblue;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.search-bar {
+    display: inline-block;
+    float: left;
+}
+
+.sorting {
+    display: inline-block;
+    float: right;
+}
+
+#searchText {
+    vertical-align: bottom;
+}
